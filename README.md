@@ -10,14 +10,18 @@ Backend Proyect
 - npm i express
 - npm i dotenv
 - npm i express-validator
+- npm i mongoose
 ```
 
-- npm i mongoose
 
 
 ## docker comands
+```
 
 - docker-compose up -d
+
+```
+
 
 ## conextion backen with table plus or another managment db
 
