@@ -38,6 +38,7 @@ app.use(cors())
 app.use(express.static('public'))
 
 app.use('/api/auth',require('./src/routes/auth'));
+app.use('/api/events',require('./src/routes/events'))
 
 app.listen(process.env.PORT,()=>{
     console.log(`servidor corriendo en el pueto ${process.env.PORT}`);
