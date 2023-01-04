@@ -8,6 +8,7 @@ const app = express();
 
 //importamos dotenv
 require('dotenv').config();
+const cors = require('cors')
 
 
 // console.log(process.env);
@@ -31,7 +32,7 @@ app.use(express.json());
 
 dbConnection();
 
-
+app.use(cors())
 //Directorio Publico
 
 app.use(express.static('public'))

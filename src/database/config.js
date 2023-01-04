@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const dbConnection = async ()=>{
 
     try {
-        await mongoose.connect('mongodb://192.168.210.100:27017/calendarBk')
+        await mongoose.connect('mongodb://localhost:27017/calendarBk')
         console.log('Db Online');
     } catch (error) {
         console.log(error);

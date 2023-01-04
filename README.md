@@ -11,6 +11,10 @@ Backend Proyect
 - npm i dotenv
 - npm i express-validator
 - npm i mongoose
+- npm i bcryptjs
+
+- npm i jsonwebtoken
+- npm i cors
 ```
 
 
@@ -24,5 +28,6 @@ Backend Proyect
 
 
 ## conextion backen with table plus or another managment db
+### we are working wiht mongo, ORM  mongoose
 
 - mongodb://localhost:27017/{nameDataBase}
