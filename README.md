@@ -15,6 +15,8 @@ Backend Proyect
 
 - npm i jsonwebtoken
 - npm i cors
+
+- npm i moment  (validate dates)
 ```
 
 
